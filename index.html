@@ -4,11 +4,12 @@
 <head>
 
     <!-- Place all CSS for header in this file -->
-    <link href='css\header.css' rel='stylesheet' type='text/css'>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Place all CSS for the rest of the elements in this file -->
     <link href='css\index.css' rel='stylesheet' type='text/css'>
-
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+    <!-- Place all CSS for the rest of the elements in this file -->
+<!--    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">-->
     <!-- Place all CSS for fonts in this file -->
     <link href='css\font.css' rel='stylesheet' type='text/css'>
 
@@ -17,22 +18,23 @@
 <body>
     <div id="main-container-div">
 
-        <div class="header">
+            <div class="header">
 
             <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
-            <input class="btn btn-primary float-right topbtn" type="button" value="Sign Up" id="myBtn">
-            <input class="btn btn-primary float-right topbtn" type="button" value="Sign In" id="myBtn">
+            <input class="btn btn-primary float-right topbtn" type="button" value="Sign Up" id="signUpBtn">
+            <input class="btn btn-primary float-right topbtn" type="button" value="Sign In" id="signIpBtn">
             <a id="pageTitle" class="logo-title">ScriBBler</a>
             <p class="middleText">Explore, Imagine, Create</p>
         </div>
 
     </div>
 
-    <div class="postButtons">
+    <div class="postButtons text-center">
 
         <!-- Insert code for All Posts & Create Post button here -->
-        <input class="button postBtn" type="button" value="Get Post">
-        <input class="button postBtn" type="button" value="Create Post">
+
+        <a href="html/bloglist.html"> <button class="button postBtn" value="Get Post">Get Post</button></a>
+        <button class="button postBtn" value="Get Post">Create Post</button>
     </div>
 
     <div>
@@ -44,7 +46,8 @@
                 <!--<span class="heading">
                     Get Started
                 </span>-->
-                <span class="close">&times;</span>
+                <div><span class="close">&times;</span>
+            </div>
                 <form>
                     <div class="form-group">
                         <label for="fname">Full Name:</label>
@@ -75,14 +78,14 @@
 
     <div>
         <!-- Insert code for Sign Up modal here -->
-        <div id="myModal" class="modal">
+        <div id="myModal1" class="modal">
 
             <!-- Modal content -->
             <div class="modal-content">
                 <!--<span class="heading">
                     Get Started
                 </span>-->
-                <span class="close">&times;</span>
+                <div><span class="close">&times;</span></div>
 
                 <form>
                     <div class="form-group">
