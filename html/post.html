@@ -20,19 +20,17 @@
         <a id="pageTitle" class="logo-title">ScriBBler</a>
         <p class="middleText">Explore, Imagine, Create</p>
     </div>
-   <div>
+    <div>
         <!-- Insert code for Sign In modal here -->
         <div id="myModal" class="modal">
 
             <!-- Modal content -->
             <div class="modal-content">
-            <div class="upper">
-                       <span class="heading">
-                    Get Started
-                </span>
-                <span class="close">&times;</span>
-                <hr>
-     </div>
+                <div class="upper">
+                    <span class="close">&times;</span>
+                    <h2>Get Started</h2>
+                    <hr>
+                </div>
                 <form>
                     <div class="form-group">
                         <label for="fname">Full Name:</label>
@@ -68,12 +66,11 @@
             <!-- Modal content -->
             <div class="modal-content">
                 <div class="upper">
-                <span class="heading">
-                    Welcome Back!
-                </span>
-                <span class="close">&times;</span>
-                <hr>
+                    <span class="close">&times;</span>
+                    <h2>Welcome Back!</h2>
+                    <hr>
                 </div>
+
 
                 <form>
                     <div class="form-group">
@@ -89,7 +86,7 @@
                     </div>
 
                 </form>
-                            <div class="navigate text-center">Not a member?<span onclick="showSignUpModal()" id="switchModal" style="color: blue;"> Sign Up</span></div>
+                <div class="navigate text-center">Not a member?<span onclick="showSignUpModal()" id="switchModal" style="color: blue;"> Sign Up</span></div>
 
             </div>
         </div>
@@ -102,8 +99,8 @@
 
 
         <div class="blogAuthor">
-        <!-- Insert code for Edit/Save button and  -->
-                 <div class="mainButtons">
+            <!-- Insert code for Edit/Save button and  -->
+            <div class="mainButtons">
                 <button class="btn btn-default float-right" type="button" id="editButton" style="font-style: normal !important">Edit<i class="fas fa-edit"></i></button>
                 <button class="btn btn-default float-right" type="button" id="saveButton">Save</button>
             </div>
@@ -128,7 +125,7 @@
         <button id="addComment" onclick="addComments(comment)">Comment</button>
         <span class="commentText">All Comments</span>
         <div id="mainCommentdivison">
-        
+
         </div>
     </div>
     <script src="..\js\post.js" defer></script>

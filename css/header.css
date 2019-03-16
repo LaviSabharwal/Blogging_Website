@@ -29,7 +29,7 @@ input["type"]=text{
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 40%;
+  width: 500px;
 }
 label{
     font-weight: 600;
@@ -43,13 +43,15 @@ label{
     width:20px;
   font-size: 32px;
   font-weight: bold;
+}h2{
+    text-align: center;
 }
 .heading{
     font-style:sans-serif!important;
    text-align: center;
     font-weight: 500;
     font-size: 30px;
-    margin-left: 170px;
+    margin-left: 140px;
 }
 
 .close:hover,
