@@ -21,8 +21,8 @@
             <div class="header">
 
             <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
-            <input class="btn btn-primary float-right topbtn" type="button" value="Sign Up" id="signUpBtn">
-            <input class="btn btn-primary float-right topbtn" type="button" value="Sign In" id="signIpBtn">
+                <button class="btn btn-primary float-right topbtn" type="button" id="signUpBtn">Sign Up</button>
+                <button class="btn btn-primary float-right topbtn" type="button" id="signInBtn">Sign In</button>
             <a id="pageTitle" class="logo-title">ScriBBler</a>
             <p class="middleText">Explore, Imagine, Create</p>
         </div>
@@ -43,11 +43,13 @@
 
             <!-- Modal content -->
             <div class="modal-content">
-                <!--<span class="heading">
+            <div class="upper">
+                       <span class="heading">
                     Get Started
-                </span>-->
-                <div><span class="close">&times;</span>
-            </div>
+                </span>
+                <span class="close">&times;</span>
+                <hr>
+     </div>
                 <form>
                     <div class="form-group">
                         <label for="fname">Full Name:</label>
@@ -65,7 +67,7 @@
                         <label for="cpwd">Confirm Password:</label>
                         <input type="password" class="form-control" id="cpwd" placeholder="Confirm Password" required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group text-center">
                         <button type="button" class="btn btn-success">Sign Up</button>
                     </div>
 
@@ -82,10 +84,13 @@
 
             <!-- Modal content -->
             <div class="modal-content">
-                <!--<span class="heading">
-                    Get Started
-                </span>-->
-                <div><span class="close">&times;</span></div>
+                <div class="upper">
+                <span class="heading">
+                    Welcome Back!
+                </span>
+                <span class="close">&times;</span>
+                <hr>
+                </div>
 
                 <form>
                     <div class="form-group">
@@ -96,11 +101,13 @@
                         <label for="pwd">Password:</label>
                         <input type="password" class="form-control" id="pwd" placeholder="Enter Password" required>
                     </div>
-                    <div class="form-group">
-                        <button type="button" class="btn btn-success">Sign Up</button>
+                    <div class="form-group text-center">
+                        <button type="button" class="btn btn-success">Sign In</button>
                     </div>
 
                 </form>
+                            <div class="navigate text-center">Not a member?<span onclick="showSignUpModal()" id="switchModal" style="color: blue;"> Sign Up</span></div>
+
             </div>
         </div>
     </div>

@@ -13,7 +13,7 @@ body{
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
 .postButtons{
     position: relative;
-    margin-top: 16%;
+    margin-top: 12%;
     //margin-left: 45%;
     }   
 .postBtn{

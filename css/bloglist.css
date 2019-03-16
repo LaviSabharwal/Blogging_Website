@@ -1,13 +1,17 @@
 .allPostsContainer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:center;
     height: 100%;
     width: 100%;
 }
+.twoPostContainer{
+    display: flex;
+    justify-content: center;
+}
+.oneLeftPost{
+    display: flex;
+    justify-content: center;
+}
 .post {
     flex-basis: 40%;
-    
     position: relative;
     width: 90%;
     height: 20%;
@@ -18,7 +22,7 @@
     border-radius: 15px;
     margin-right: 60px;
 }
-    
+  
 .post-left {
         width: 15%;            
         max-width: 15%;
@@ -44,7 +48,7 @@
     font-size: 25px;
     height: 28px;
     overflow: hidden;
-      text-overflow: ellipsis;
+    text-overflow: ellipsis;
     }
 .post-more {
     float: right;
@@ -67,7 +71,6 @@ body {
     width: 100%;
     position: relative;
     margin: 0 !important;
-    color: #fff;
     background-color: orange;
     background-size: 2000% 2000%;
 }
@@ -129,9 +132,12 @@ body {
    width: 4px;
     height: 4px;
     float: right;
-    margin-left: 3px;
+    margin-left: 1px;
     margin-bottom: 10px;
     border-radius: 50%;
+}
+#blogIcon{
+    cursor: auto;
 }
 #blogIcon:hover{
     cursor: pointer;
